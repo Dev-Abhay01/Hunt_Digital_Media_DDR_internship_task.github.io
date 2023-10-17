@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.container input {
+  width: calc(80% - 5px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.container .date-selection input {
+  width: 80%;
+}
+
+.container .exclude-dates input {
+  width: 80%;
+}
+
+.container .number-of-days span {
+  font-weight: bold;
+}
+
+.container button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #333;
+}
